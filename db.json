@@ -1,0 +1,58 @@
+{
+  "rutinas": [
+    {
+      "id": "1",
+      "nombreCliente": "Diego Fernández",
+      "tipoEntrenamiento": "Fuerza",
+      "duracion": 60,
+      "dificultad": "Intermedio",
+      "sesionGrupal": false,
+      "observaciones": "Entrenamiento enfocado en hipertrofia."
+    },
+    {
+      "id": "2",
+      "nombreCliente": "Laura Giménez",
+      "tipoEntrenamiento": "Cardio",
+      "duracion": 45,
+      "dificultad": "Avanzado",
+      "sesionGrupal": true,
+      "observaciones": ""
+    },
+    {
+      "id": "3",
+      "nombreCliente": "Marcos Pérez",
+      "tipoEntrenamiento": "Fuerza",
+      "duracion": 90,
+      "dificultad": "Avanzado",
+      "sesionGrupal": false,
+      "observaciones": "Series pesadas con descanso largo."
+    },
+    {
+      "id": "4",
+      "nombreCliente": "Sofía Ramírez",
+      "tipoEntrenamiento": "Fuerza",
+      "duracion": 30,
+      "dificultad": "Principiante",
+      "sesionGrupal": false,
+      "observaciones": "Mantener ritmo constante, pausas cortas."
+    },
+    {
+      "id": "5",
+      "nombreCliente": "Tomás Herrera",
+      "tipoEntrenamiento": "Cardio",
+      "duracion": 40,
+      "dificultad": "Principiante",
+      "sesionGrupal": true,
+      "observaciones": "Controlar frecuencia cardíaca."
+    },
+    {
+      "id": "6",
+      "nombreCliente": "Valentina López",
+      "tipoEntrenamiento": "Flexibilidad",
+      "duracion": 50,
+      "dificultad": "Intermedio",
+      "sesionGrupal": false,
+      "observaciones": ""
+    }
+  ]
+}
