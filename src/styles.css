@@ -6,3 +6,14 @@ html{
   box-sizing: border-box;
   font-size: 62,5%;
 }
+
+:root {
+--background-color: #1c1c1c;
+--background-alt-color: #2a2a2a;
+--background-card-color: #3c3c3c;
+--border-color: #444444;
+--font-color: #e0e0e0;
+--font-alt-color: #a0a0a0;
+--accent-color: #5e8cf7;
+--error-color: #bc2b2b;
+}
