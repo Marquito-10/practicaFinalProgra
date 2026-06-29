@@ -7,3 +7,12 @@ export interface RoutineModel {
   sesionGrupal: boolean;
   observaciones: String;
 }
+
+export interface NewRoutineModel {
+  nombreCliente: String;
+  tipoEntrenamiento: String;
+  duracion: number;
+  dificultad: String;
+  sesionGrupal: boolean;
+  observaciones: String;
+}
