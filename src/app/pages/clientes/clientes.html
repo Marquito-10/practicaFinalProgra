@@ -1,1 +1,34 @@
-<p>clientes works!</p>
+<div class="clientesPage">
+
+  <h1 class="titulo">Panel de clientes</h1>
+
+  <div class="panelClientes">
+
+    <div class="PanelDeOrdenamiento">
+
+      <button class="ordenamientoPorTipo" (click)="ordenarPorTipo()" [class.activo] = "criterioOrden() === 'tipo'">Ordenar por tipo de entrenamiento</button>
+      <button class="ordenamientoPorDuracion" (click)="ordenarPorDuracion()" [class.activo] = "criterioOrden() === 'duracion'" >Ordenar por duracion</button>
+
+    </div>
+
+    <div class="contenedorLista">
+
+      @for (rutina of rutinasOrdenadas(); track rutina.Id) {
+
+        <div class="tarjetaCliente">
+          <h2 class="nombre">{{ rutina.nombreCliente }}</h2>
+          <p class="tipo">Tipo: {{ rutina.nombreCliente }}</p>
+          <p class="duracion">Duracion: {{ rutina.duracion }}</p>
+
+          <button class="verDetalle" (click)="verDetalle(rutina.Id)">Ver mas -> &RightArrow;</button>
+        </div>
+
+      } @empty {
+        <p class="mensajeVacio">No se encontraron rutinas.</p>
+      }
+
+    </div>
+
+  </div>
+
+</div>

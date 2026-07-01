@@ -1,18 +1,18 @@
 export interface RoutineModel {
-  Id: String;
-  nombreCliente: String;
-  tipoEntrenamiento: String;
+  Id: string;
+  nombreCliente: string;
+  tipoEntrenamiento: string;
   duracion: number;
-  dificultad: String;
+  dificultad: string;
   sesionGrupal: boolean;
-  observaciones: String;
+  observaciones: string;
 }
 
 export interface NewRoutineModel {
-  nombreCliente: String;
-  tipoEntrenamiento: String;
+  nombreCliente: string;
+  tipoEntrenamiento: string;
   duracion: number;
-  dificultad: String;
+  dificultad: string;
   sesionGrupal: boolean;
-  observaciones: String;
+  observaciones: string;
 }
